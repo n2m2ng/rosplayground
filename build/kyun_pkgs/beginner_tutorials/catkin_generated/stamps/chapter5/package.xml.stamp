@@ -1,0 +1,9 @@
+<package format="2">
+  <name>beginner_tutorials</name>
+  <version>1.2.4</version>
+  <description>
+  beginner_tutorials
+  </description>
+  <maintainer email="info@nm2.jp">n2m2ng</maintainer>
+  <license>BSD</license>
+</package>

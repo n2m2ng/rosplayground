@@ -1,0 +1,8 @@
+prefix=/home/kyun-kun/catkin_ws/devel
+
+Name: pluginlib_arrayutil
+Description: Description of pluginlib_arrayutil
+Version: 0.0.0
+Cflags: -I/home/kyun-kun/catkin_ws/src/rosbook_pkgs/chapter11/pluginlib_arrayutil/include
+Libs: -L/home/kyun-kun/catkin_ws/devel/lib -lpluginlib_arrayutil
+Requires: pluginlib roscpp
