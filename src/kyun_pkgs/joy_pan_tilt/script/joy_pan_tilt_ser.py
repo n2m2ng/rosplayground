@@ -13,6 +13,7 @@ from dynamixel_workbench_msgs.srv import DynamixelCommand, DynamixelCommandRespo
 SERVO_ID_1 = 1  # サーボID 1
 SERVO_ID_2 = 2  # サーボID 2
 
+
 def callback(data):
     rospy.loginfo("*")
     print 'buttons: ["%s %s %s %s %s %s %s %s %s %s %s %s %s"]' % (data.buttons[0], data.buttons[1], data.buttons[2], data.buttons[3], data.buttons[4], data.buttons[5], data.buttons[6], data.buttons[7], data.buttons[8], data.buttons[9], data.buttons[10], data.buttons[11], data.buttons[12])
@@ -41,7 +42,7 @@ def callback(data):
 
 def listener():
     rospy.init_node('listener', anonymous=True)
-    rospy.Subscriber("joy" , Joy , callback)
+    rospy.Subscriber("joy" , Joy, callback)
     rospy.wait_for_service("/dynamixel_workbench/dynamixel_command")
     rospy.spin()
 
