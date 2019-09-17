@@ -20,10 +20,9 @@ def callback(data):
     print 'buttons:["%s %s %s %s %s %s %s %s %s %s %s %s %s"]' % (data.buttons[0],data.buttons[1],data.buttons[2],data.buttons[3],data.buttons[4],data.buttons[5],data.buttons[6],data.buttons[7],data.buttons[8],data.buttons[9],data.buttons[10],data.buttons[11],data.buttons[12])
     print 'axes: ["%s %s %s %s %s %s"]' % (data.axes[0],data.axes[1],data.axes[2],data.axes[3],data.axes[4],data.axes[5])
 
-#    rospy.init_node('dynamixel_command_client')
-# word_countサービスが公開されるのを待つ
+# dynamixel_commandサービスが公開されるのを待つ
     rospy.wait_for_service('dynamixel_workbench/dynamixel_command')
-# ローカルプロキシにサービス名(word_count)と型(WordCount)を設定
+# ローカルプロキシにサービス名(dynamixel_command)と型(DynamixelCommand)を設定
     try:
         service = rospy.ServiceProxy('dynamixel_workbench/dynamixel_command', DynamixelCommand)
         pan_joint = data.axes[0]*1024+1024
@@ -34,13 +33,11 @@ def callback(data):
         print tilt_joint_int
         print type(pan_joint_int)
         print type(tilt_joint_int)
-        response = service('', id_1, 'Goal_Position', pan_joint)
-        response = service('', id_2, 'Goal_Position', tilt_joint)
+        response = service('', id_1, 'Goal_Position', pan_joint_int)
+        response = service('', id_2, 'Goal_Position', tilt_joint_int)
     except rospy.ServiceException, e:
         print "Service call failed: %s" % e
         return DynamixelCommandResponse
-# word_counterが呼び出されたときにサービスコールが行われる
-#dynamixel_command = DynamixelCommand(pan_joint, tilt_joint)
 
 def listener():
     rospy.init_node('listener', anonymous=True)
