@@ -33,8 +33,8 @@ def callback(data):
         print tilt_joint_int
         print type(pan_joint_int)
         print type(tilt_joint_int)
-        response = service('', id_1, 'Goal_Position', pan_joint_int)
-        response = service('', id_2, 'Goal_Position', tilt_joint_int)
+        response = service('', SERVO_ID_1, 'Goal_Position', pan_joint_int)
+        response = service('', SERVO_ID_2, 'Goal_Position', tilt_joint_int)
     except rospy.ServiceException, e:
         print "Service call failed: %s" % e
     return DynamixelCommandResponse
