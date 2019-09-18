@@ -31,8 +31,6 @@ def callback(data):
         tilt_joint_int = int(tilt_joint)
         print pan_joint_int
         print tilt_joint_int
-        print type(pan_joint_int)
-        print type(tilt_joint_int)
         response = service('', SERVO_ID_1, 'Goal_Position', pan_joint_int)
         response = service('', SERVO_ID_2, 'Goal_Position', tilt_joint_int)
     except rospy.ServiceException, e:
