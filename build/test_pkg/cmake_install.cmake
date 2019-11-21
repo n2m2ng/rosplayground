@@ -1,8 +1,8 @@
-# Install script for directory: /home/kyun-kun/catkin_ws/src/test_pkg
+# Install script for directory: /home/kyun/rosplayground/src/test_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kyun-kun/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/kyun/rosplayground/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kyun-kun/catkin_ws/build/test_pkg/catkin_generated/installspace/test_pkg.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kyun/rosplayground/build/test_pkg/catkin_generated/installspace/test_pkg.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_pkg/cmake" TYPE FILE FILES
-    "/home/kyun-kun/catkin_ws/build/test_pkg/catkin_generated/installspace/test_pkgConfig.cmake"
-    "/home/kyun-kun/catkin_ws/build/test_pkg/catkin_generated/installspace/test_pkgConfig-version.cmake"
+    "/home/kyun/rosplayground/build/test_pkg/catkin_generated/installspace/test_pkgConfig.cmake"
+    "/home/kyun/rosplayground/build/test_pkg/catkin_generated/installspace/test_pkgConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_pkg" TYPE FILE FILES "/home/kyun-kun/catkin_ws/src/test_pkg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_pkg" TYPE FILE FILES "/home/kyun/rosplayground/src/test_pkg/package.xml")
 endif()
 

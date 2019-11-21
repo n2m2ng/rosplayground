@@ -1,0 +1,8 @@
+prefix=/home/kyun/rosplayground/devel
+
+Name: depthimage_to_laserscan
+Description: Description of depthimage_to_laserscan
+Version: 1.0.8
+Cflags: -I/home/kyun/rosplayground/devel/include -I/home/kyun/rosplayground/src/depthimage_to_laserscan/include
+Libs: -L/home/kyun/rosplayground/devel/lib -lDepthImageToLaserScan -lDepthImageToLaserScanROS -lDepthImageToLaserScanNodelet
+Requires: dynamic_reconfigure image_geometry image_transport nodelet roscpp sensor_msgs

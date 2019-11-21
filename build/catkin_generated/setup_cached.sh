@@ -7,4 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/kyun-kun/catkin_ws/build"
+export PWD="/home/kyun/rosplayground/build"
+export PYTHONPATH="/opt/ros/kinetic/lib/python2.7/dist-packages"
+export ROS_PACKAGE_PATH="/home/kyun/rosplayground/src:/opt/ros/kinetic/share"

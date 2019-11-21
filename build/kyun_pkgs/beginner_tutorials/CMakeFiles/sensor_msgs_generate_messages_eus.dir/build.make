@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyun-kun/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/kyun/rosplayground/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyun-kun/catkin_ws/build
+CMAKE_BINARY_DIR = /home/kyun/rosplayground/build
 
 # Utility rule file for sensor_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ kyun_pkgs/beginner_tutorials/CMakeFiles/sensor_msgs_generate_messages_eus.dir/bu
 .PHONY : kyun_pkgs/beginner_tutorials/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 
 kyun_pkgs/beginner_tutorials/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
-	cd /home/kyun-kun/catkin_ws/build/kyun_pkgs/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/kyun/rosplayground/build/kyun_pkgs/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : kyun_pkgs/beginner_tutorials/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 
 kyun_pkgs/beginner_tutorials/CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend:
-	cd /home/kyun-kun/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyun-kun/catkin_ws/src /home/kyun-kun/catkin_ws/src/kyun_pkgs/beginner_tutorials /home/kyun-kun/catkin_ws/build /home/kyun-kun/catkin_ws/build/kyun_pkgs/beginner_tutorials /home/kyun-kun/catkin_ws/build/kyun_pkgs/beginner_tutorials/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kyun/rosplayground/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyun/rosplayground/src /home/kyun/rosplayground/src/kyun_pkgs/beginner_tutorials /home/kyun/rosplayground/build /home/kyun/rosplayground/build/kyun_pkgs/beginner_tutorials /home/kyun/rosplayground/build/kyun_pkgs/beginner_tutorials/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kyun_pkgs/beginner_tutorials/CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
 

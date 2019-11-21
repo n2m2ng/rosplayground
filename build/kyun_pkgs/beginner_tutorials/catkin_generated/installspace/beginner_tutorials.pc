@@ -1,8 +1,8 @@
-prefix=/home/kyun-kun/catkin_ws/install
+prefix=/home/kyun/rosplayground/install
 
 Name: beginner_tutorials
 Description: Description of beginner_tutorials
 Version: 1.2.4
 Cflags: 
-Libs: -L/home/kyun-kun/catkin_ws/install/lib 
+Libs: -L/home/kyun/rosplayground/install/lib 
 Requires: rospy sensor_msgs std_msgs

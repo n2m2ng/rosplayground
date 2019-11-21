@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kyun-kun/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/kyun/rosplayground/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kyun-kun/catkin_ws/build
+CMAKE_BINARY_DIR = /home/kyun/rosplayground/build
 
 # Utility rule file for clean_test_results_beginner_tutorials.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/kyun-kun/catkin_ws/build
 include kyun_pkgs/beginner_tutorials/CMakeFiles/clean_test_results_beginner_tutorials.dir/progress.make
 
 kyun_pkgs/beginner_tutorials/CMakeFiles/clean_test_results_beginner_tutorials:
-	cd /home/kyun-kun/catkin_ws/build/kyun_pkgs/beginner_tutorials && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/kyun-kun/catkin_ws/build/test_results/beginner_tutorials
+	cd /home/kyun/rosplayground/build/kyun_pkgs/beginner_tutorials && /usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/kyun/rosplayground/build/test_results/beginner_tutorials
 
 clean_test_results_beginner_tutorials: kyun_pkgs/beginner_tutorials/CMakeFiles/clean_test_results_beginner_tutorials
 clean_test_results_beginner_tutorials: kyun_pkgs/beginner_tutorials/CMakeFiles/clean_test_results_beginner_tutorials.dir/build.make
@@ -67,10 +67,10 @@ kyun_pkgs/beginner_tutorials/CMakeFiles/clean_test_results_beginner_tutorials.di
 .PHONY : kyun_pkgs/beginner_tutorials/CMakeFiles/clean_test_results_beginner_tutorials.dir/build
 
 kyun_pkgs/beginner_tutorials/CMakeFiles/clean_test_results_beginner_tutorials.dir/clean:
-	cd /home/kyun-kun/catkin_ws/build/kyun_pkgs/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_beginner_tutorials.dir/cmake_clean.cmake
+	cd /home/kyun/rosplayground/build/kyun_pkgs/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_beginner_tutorials.dir/cmake_clean.cmake
 .PHONY : kyun_pkgs/beginner_tutorials/CMakeFiles/clean_test_results_beginner_tutorials.dir/clean
 
 kyun_pkgs/beginner_tutorials/CMakeFiles/clean_test_results_beginner_tutorials.dir/depend:
-	cd /home/kyun-kun/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyun-kun/catkin_ws/src /home/kyun-kun/catkin_ws/src/kyun_pkgs/beginner_tutorials /home/kyun-kun/catkin_ws/build /home/kyun-kun/catkin_ws/build/kyun_pkgs/beginner_tutorials /home/kyun-kun/catkin_ws/build/kyun_pkgs/beginner_tutorials/CMakeFiles/clean_test_results_beginner_tutorials.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kyun/rosplayground/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kyun/rosplayground/src /home/kyun/rosplayground/src/kyun_pkgs/beginner_tutorials /home/kyun/rosplayground/build /home/kyun/rosplayground/build/kyun_pkgs/beginner_tutorials /home/kyun/rosplayground/build/kyun_pkgs/beginner_tutorials/CMakeFiles/clean_test_results_beginner_tutorials.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kyun_pkgs/beginner_tutorials/CMakeFiles/clean_test_results_beginner_tutorials.dir/depend
 
