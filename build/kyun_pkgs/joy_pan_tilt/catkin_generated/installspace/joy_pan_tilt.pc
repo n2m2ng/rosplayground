@@ -1,8 +1,0 @@
-prefix=/home/kyun/rosplayground/install
-
-Name: joy_pan_tilt
-Description: Description of joy_pan_tilt
-Version: 1.2.4
-Cflags: 
-Libs: -L/home/kyun/rosplayground/install/lib 
-Requires: rospy sensor_msgs std_msgs
