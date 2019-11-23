@@ -1,0 +1,6 @@
+# ROS
+devel/
+build/
+
+# Python
+*.pyc
