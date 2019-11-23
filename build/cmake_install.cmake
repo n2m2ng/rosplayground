@@ -126,10 +126,13 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/kyun/rosplayground/build/gtest/cmake_install.cmake")
+  include("/home/kyun/rosplayground/build/realsense-ros/realsense2_description/cmake_install.cmake")
   include("/home/kyun/rosplayground/build/test_pkg/cmake_install.cmake")
   include("/home/kyun/rosplayground/build/kyun_pkgs/beginner_tutorials/cmake_install.cmake")
   include("/home/kyun/rosplayground/build/depthimage_to_laserscan/cmake_install.cmake")
   include("/home/kyun/rosplayground/build/kyun_pkgs/joy_pan_tilt/cmake_install.cmake")
+  include("/home/kyun/rosplayground/build/kyun_pkgs/realsense2_kyun/cmake_install.cmake")
+  include("/home/kyun/rosplayground/build/realsense-ros/realsense2_camera/cmake_install.cmake")
 
 endif()
 

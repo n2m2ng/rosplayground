@@ -1,0 +1,8 @@
+prefix=/home/kyun/rosplayground/install
+
+Name: realsense2_kyun
+Description: Description of realsense2_kyun
+Version: 1.2.4
+Cflags: 
+Libs: -L/home/kyun/rosplayground/install/lib 
+Requires: rospy sensor_msgs std_msgs

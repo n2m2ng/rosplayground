@@ -1,2 +1,2 @@
-depthimage_to_laserscan:kyun_pkgs/beginner_tutorials:kyun_pkgs/joy_pan_tilt:test_pkg
+depthimage_to_laserscan:kyun_pkgs/beginner_tutorials:kyun_pkgs/joy_pan_tilt:kyun_pkgs/realsense2_kyun:realsense-ros/realsense2_camera:realsense-ros/realsense2_description:test_pkg
 -DCATKIN_DEVEL_PREFIX=/home/kyun/rosplayground/devel -DCMAKE_INSTALL_PREFIX=/home/kyun/rosplayground/install -G Unix Makefiles
